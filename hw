@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    	<title>Animal Trading Cards</title>
+<style>
+.tradingcard {
+  width: 310px;
+  border: 1px solid #DCDCDC;
+  box-shadow: 6px 6px 1px 0px #EBEBEB;
+  padding-right: .2em;
+  padding-left: .7em;
+  padding-bottom: .6em;
+}
+
+.infobox {
+  width: 283px;
+  border: 1px solid #DCDCDC;
+  padding-right: .5em;
+  padding-left: .5em;
+}
+
+/* Image */
+.animalPicture {
+  width: 300px;
+  height: 200px;
+  padding-bottom: .8em;
+}
+
+/* Interesting Fact */
+.funfact {
+  font-style: italic;
+}
+
+/* List Information */
+.list-info{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+span {
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+  <div class="tradingcard">
+  		<h3>Dolphins</h3>
+  		<img class="animalPicture" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FImjA2XsSBWc%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.illumina.com%2Fcompany%2Fnews-center%2Ffeature-articles%2Fbottlenose-dolphin-genome-made-available-to-researchers.html&tbnid=CkgoxxvG6jDSeM&vet=12ahUKEwj_uLzFt-LpAhUQE6wKHURiBSEQMygBegUIARCbAg..i&docid=CkrPiy0ZpqZPfM&w=1280&h=720&q=dolphin&safe=strict&ved=2ahUKEwj_uLzFt-LpAhUQE6wKHURiBSEQMygBegUIARCbAg" alt="Dolphin!">
+  		<div class="infobox">
+  			<p class="funfact">Dolphins are highly intelligent marine mammals and are part of the family of toothed whales that includes orcas and pilot whales..</p>
+  			<ul class="list-info">
+  				<li><span>Scientific Name</span>: Odontoceti</li>
+  				<li><span>Average Length</span>: up to 32 feet</li>
+  				<li><span>Average Lifespan</span>: unknown</li>
+  				<li><span>Habitat</span>: Dolphins are found living in bodies of water around the world. They inhabit all of the oceans and some important rivers. Most of them live in saltwater, but a few species thrive in freshwater. The habitat of dolphins varies according to environmental factors and food accessibility.</li>
+  			</ul>
+  			<p>Dolphins are small-toothed cetaceans easily recognizable by their curved mouths, which give them a permanent “smile.” There are 36 dolphin species, found in every ocean. Most dolphins are marine and live in the ocean or brackish waters along coastlines. There are a few species, however, like the South Asian river dolphin and the Amazon river dolphin, or boto, that live in freshwater streams and rivers.</p>
+  		</div>
+  	</div>
+  </body>
+  </html>
